@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard" />
+    <item android:id="@+id/category"
+        android:title="Category"
+        android:icon="@drawable/category" />
+    <item android:id="@+id/chart"
+        android:title="Chart"
+        android:icon="@drawable/chart" />
+    <item android:id="@+id/excelexport"
+        android:title="Export"
+        android:icon="@drawable/export" />
+</menu>

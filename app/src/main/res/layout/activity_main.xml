@@ -108,7 +108,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/recyclerview_title"
-        android:layout_margin="10dp"/>
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addBtn"
@@ -119,11 +122,20 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="116dp"
         android:backgroundTint="@color/red"
         android:src="@drawable/ic_add"
         app:borderWidth="0dp"
         app:tint="@color/white" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/balance_layout"
+        app:menu="@menu/bottommenu" />
 </RelativeLayout>
 
